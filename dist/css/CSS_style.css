@@ -78,11 +78,14 @@ div img {
 }
 
 .video_info {
-    margin: 10px;
+    border: 1px solid red;
     display: flex;
     justify-content: center;
-    padding: 5px;
-    height: 50%;
+    height: 49%;
+}
+
+.video_info iframe {
+    margin: 10px;
 }
 
 @media (max-width: 600px) {
